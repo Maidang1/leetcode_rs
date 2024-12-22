@@ -25,31 +25,31 @@ mod tests {
 
     #[test]
     fn test_kth_distinct() {
-        // assert_eq!(
-        //     kth_distinct(
-        //         vec![
-        //             "d".to_string(),
-        //             "b".to_string(),
-        //             "c".to_string(),
-        //             "b".to_string(),
-        //             "c".to_string(),
-        //             "a".to_string()
-        //         ],
-        //         2
-        //     ),
-        //     "a".to_string()
-        // );
-        // assert_eq!(
-        //     kth_distinct(
-        //         vec!["aaa".to_string(), "aa".to_string(), "a".to_string(),],
-        //         1
-        //     ),
-        //     "aaa".to_string()
-        // );
-        // assert_eq!(
-        //     kth_distinct(vec!["a".to_string(), "b".to_string(), "a".to_string(),], 3),
-        //     "".to_string()
-        // );
+        assert_eq!(
+            kth_distinct(
+                vec![
+                    "d".to_string(),
+                    "b".to_string(),
+                    "c".to_string(),
+                    "b".to_string(),
+                    "c".to_string(),
+                    "a".to_string()
+                ],
+                2
+            ),
+            "a".to_string()
+        );
+        assert_eq!(
+            kth_distinct(
+                vec!["aaa".to_string(), "aa".to_string(), "a".to_string(),],
+                1
+            ),
+            "aaa".to_string()
+        );
+        assert_eq!(
+            kth_distinct(vec!["a".to_string(), "b".to_string(), "a".to_string(),], 3),
+            "".to_string()
+        );
 
         assert_eq!(
             kth_distinct(
