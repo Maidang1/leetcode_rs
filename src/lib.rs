@@ -4,6 +4,7 @@ mod single_number;
 mod number_increasing;
 mod k_uniq_str;
 mod add_two_numbers;
+mod reverse;
 fn run() {
 }
 
